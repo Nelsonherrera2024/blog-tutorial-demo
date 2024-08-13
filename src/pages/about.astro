@@ -33,25 +33,25 @@ const textCase = "uppercase";
 </style>
 
 <BaseLayout pageTitle={pageTitle}>
-  <h2>... and my new Astro site!</h2>
+  <h2>...y mi nuevo sitio Astro!</h2>
 
   <p>
-    I am working through Astro's introductory tutorial. This is the second page
-    on my website, and it's the first one I built myself!
+    Estoy trabajando en el tutorial introductorio de Astro. 
+    Esta es la segunda página de mi sitio web y es la primera que creé yo mismo.
   </p>
 
   <p>
-    This site will update as I complete more of the tutorial, so keep checking
-    back and see how my journey is going!
+    ¡Este sitio se actualizará a medida que complete más partes del tutorial, 
+    así que siga visitándolo y vea cómo va mi viaje!
   </p>
 
-  {happy && <p>I am happy to be learning Astro!</p>}
+  {happy && <p>¡Estoy feliz de estar aprendiendo Astro!!</p>}
 
-  {finished && <p>I finished this tutorial!</p>}
+  {finished && <p>¡Terminé este tutorial!</p>}
 
   {
     goal === 3 ? (
-      <p>My goal is to finish in 3 days.</p>
+      <p>Mi objetivo es terminar en 3 días..</p>
     ) : (
       <p>My goal is not 3 days.</p>
     )
@@ -59,17 +59,17 @@ const textCase = "uppercase";
 
   <p>Here are a few facts about me:</p>
   <ul>
-    <li>My name is {identity.firstName}.</li>
-    <li>I live in {identity.country} and I work as a {identity.occupation}.</li>
+    <li>Mi nombre es {identity.firstName}.</li>
+    <li>Vivo en {identity.country} y trabajo como {identity.occupation}.</li>
     {
       identity.hobbies.length >= 2 && (
         <li>
-          Two of my hobbies are: {identity.hobbies[0]} and {identity.hobbies[1]}
+          Dos de mis pasatiempos son: {identity.hobbies[0]} and {identity.hobbies[1]}
         </li>
       )
     }
   </ul>
-  <p>My skills are:</p><p></p><ul>
+  <p>Mis habilidades principales son:</p><p></p><ul>
     {skills.map((skill) => <li class="skill">{skill}</li>)}
   </ul>
 </BaseLayout>

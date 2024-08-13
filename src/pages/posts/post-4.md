@@ -1,12 +1,12 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: My Fourth Blog Post
-author: Astro Learner
+title: Mi cuarta entrada de blog
+author: Nelson Herrera Diaz
 description: "This post will show up on its own!"
 image: 
-  url: "https://docs.astro.build/default-og-image.png"
+  url: "https://avatars.githubusercontent.com/u/157047665?v=4"
   alt: "The word astro against an illustration of planets and stars."
-pubDate: 2022-08-08
+pubDate: 2024-08-12
 tags: ["astro", "successes"]
 ---
-This post should show up with my other blog posts, because `Astro.glob()` is returning a list of all my posts in order to create my list.
+Esta publicación debería aparecer con mis otras publicaciones de blog, porque `Astro.glob()` devuelve una lista de todas mis publicaciones para crear mi lista de etiquetas.

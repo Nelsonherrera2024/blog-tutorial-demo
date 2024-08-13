@@ -1,13 +1,13 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: My Third Blog Post
-author: Astro Learner
-description: "I had some challenges, but asking in the community really helped!"
+title: Mi tercera entrada de blog
+author: Nelson Herrera Diaz
+description: "Tuve algunos desafíos, ¡pero preguntar en la comunidad realmente me ayudó!"
 image:
-  url: "https://docs.astro.build/assets/rays.webp"
+  url: "https://avatars.githubusercontent.com/u/157047665?v=4"
   alt: "The word community with a heart."
-pubDate: 2022-07-15
+pubDate: 2024-08-12
 tags: ["astro", "learning in public", "setbacks", "community"]
 ---
 
-It wasn't always smooth sailing, but I'm enjoying building with Astro. And, the [Discord community](https://astro.build/chat) is really friendly and helpful!
+No siempre fue fácil, pero disfruto de construir con Astro. ¡Y la [Discord community](https://astro.build/chat) es muy amable y servicial!
